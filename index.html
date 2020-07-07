@@ -38,6 +38,23 @@
 </div>
 <hr>
 <div id="nav">
+<script>
+    var fs = require("fs");
+    var current = "";
+    function change(path){
+        if (current != path){
+            current = path;
+            var html = "";
+            fs.readFile(path, function (err, data){
+                if (err) {
+                    html += "<p>" + console.error(err).toString() + "</p>";
+                }
+                html += data.toString();
+            });
+            document.getElementById("body").innerHTML = html;
+        }
+    }
+</script>
 <ul >
     <li onclick="change('beliefs.html')">Beliefs</li>
     <li onclick="change('coding.html')">Coding</li>
@@ -48,22 +65,5 @@
 <div id="body">
 <p>select an element from the nav bar to explore my portfolio</p>
 </div>
-<script>
-var fs = require("fs");
-var current = "";
-function change(path){
-    if (current != path){
-        current = path;
-        var html = "";
-        fs.readFile(path, function (err, data){
-            if (err) {
-                html += "<p>" + console.error(err).toString() + "</p>";
-            }
-            html += data.toString();
-        });
-        document.getElementById("body").innerHTML = html;
-    }
-}
-</script>
 </body>
 </html>
