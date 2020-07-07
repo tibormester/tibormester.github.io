@@ -2,30 +2,6 @@
 <html>
 <head>
 <style>
-    #nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333333;
-    }
-        
-    #nav li {
-        float: left;
-    }
-        
-    #nav li a {
-        display: block;
-        background-color: #101010;
-        color: white;
-        text-align: center;
-        padding: 16px;
-        text-decoration: none;
-    }
-        
-    #nav li a:hover {
-        background-color: #212121;
-    }
 </style>
 <title>Tibor Mester Portfolio</title>
 </head>
@@ -38,6 +14,16 @@
 </div>
 <hr>
 <div id="nav">
+<ul >
+    <li onclick="change('beliefs.html')">Beliefs</li>
+    <li onclick="change('coding.html')">Coding</li>
+    <li onclick="change('math.html')">Math</li>
+    <li onclick="change('research.html')">Research</li>
+</ul>
+</div>
+<div id="body">
+<p>select an element from the nav bar to explore my portfolio</p>
+</div>
 <script>
     var fs = require("fs");
     var current = "";
@@ -55,15 +41,5 @@
         }
     }
 </script>
-<ul >
-    <li onclick="change('beliefs.html')">Beliefs</li>
-    <li onclick="change('coding.html')">Coding</li>
-    <li onclick="change('math.html')">Math</li>
-    <li onclick="change('research.html')">Research</li>
-</ul>
-</div>
-<div id="body">
-<p>select an element from the nav bar to explore my portfolio</p>
-</div>
 </body>
 </html>
