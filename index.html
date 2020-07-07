@@ -1,41 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
-        #nav ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-          background-color: #333333;
-        }
+<style>
+    #nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+    }
         
-        #nav li {
-          float: left;
-        }
+    #nav li {
+        float: left;
+    }
         
-        #nav li a {
-          display: block;
-          color: white;
-          text-align: center;
-          padding: 16px;
-          text-decoration: none;
-        }
+    #nav li a {
+        display: block;
+        background-color: #101010;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
         
-        #nav li a:hover {
-          background-color: #111111;
-        }
-    </style>
-    <title>Tibor Mester Portfolio</title>
+    #nav li a:hover {
+        background-color: #212121;
+    }
+</style>
+<title>Tibor Mester Portfolio</title>
 </head>
 <body>
-    <ul id="nav">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
-      </ul>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<div id="abstract">
+<h1>Tibor Mester</h1>
+<br>
+<!--  Add an image background here-->
+<p>Life purpose and ambitions statement goes here probably</p>
+</div>
+<hr>
+<div id="nav">
+<ul >
+    <li onclick="change('beliefs.html')">Beliefs</li>
+    <li onclick="change('coding.html')">Coding</li>
+    <li onclick="change('math.html')">Math</li>
+    <li onclick="change('research.html')">Research</li>
+</ul>
+</div>
+<div id="body">
+<p>select an element from the nav bar to explore my portfolio</p>
+</div>
+<script>
+var fs = require("fs");
+var current = "";
+function change(path){
+    if (current != path){
+        current = path;
+        var html = "";
+        fs.readFile(path, function (err, data){
+            if (err) {
+                html += "<p>" + console.error(err).toString() + "</p>";
+            }
+            html += data.toString();
+        });
+        document.getElementById("body").innerHTML = html;
+    }
+}
+</script>
 </body>
 </html>
