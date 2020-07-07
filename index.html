@@ -15,22 +15,35 @@
 <hr>
 <div id="nav">
 <ul >
-    <li onclick="change('beliefs.html');">Beliefs</li>
-    <li onclick="change('coding.html');">Coding</li>
-    <li onclick="change('math.html');">Math</li>
-    <li onclick="change('research.html');">Research</li>
+    <li onclick="change('beliefs');">Beliefs</li>
+    <li onclick="change('coding');">Coding</li>
+    <li onclick="change('math');">Math</li>
+    <li onclick="change('research');">Research</li>
 </ul>
 </div>
-<div id="body">
+<div id="body" style:display="block">
 <p>select an element from the nav bar to explore my portfolio</p>
 </div>
+<div id="beliefs" style:display="none"> 
+    <h2>Beliefs</h2>
+</div>
+<div id="coding" style:display="none"> 
+    <h2>Coding</h2>
+</div>
+<div id="math" style:display="none"> 
+    <h2>Math</h2>
+</div>
+<div id="research" style:display="none"> 
+    <h2>Research</h2>
+</div>
+
 <script>
-    var fs = require("fs");
-    var current = "";
+    var current = "body";
     function change(path){
         if (current.localeCompare(path) != 0){
+            document.getElementById(curent).style.display = "none";
+            document.getElementById(path).style.display = "block";
             current = path;
-            document.getElementById("body").innerHTML = fs.readFile(path).toString();;
         }
     }
 </script>
