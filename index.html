@@ -15,10 +15,10 @@
 <hr>
 <div id="nav">
 <ul >
-    <li onclick="change('beliefs.html')">Beliefs</li>
-    <li onclick="change('coding.html')">Coding</li>
-    <li onclick="change('math.html')">Math</li>
-    <li onclick="change('research.html')">Research</li>
+    <li onclick="change('beliefs.html');">Beliefs</li>
+    <li onclick="change('coding.html');">Coding</li>
+    <li onclick="change('math.html');">Math</li>
+    <li onclick="change('research.html');">Research</li>
 </ul>
 </div>
 <div id="body">
@@ -28,16 +28,9 @@
     var fs = require("fs");
     var current = "";
     function change(path){
-        if (current != path){
+        if (current.localeCompare(path) != 0){
             current = path;
-            var html = "";
-            fs.readFile(path, function (err, data){
-                if (err) {
-                    html += "<p>" + console.error(err).toString() + "</p>";
-                }
-                html += data.toString();
-            });
-            document.getElementById("body").innerHTML = html;
+            document.getElementById("body").innerHTML = fs.readFile(path).toString();;
         }
     }
 </script>
