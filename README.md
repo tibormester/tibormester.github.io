@@ -2,7 +2,9 @@
 
 **About Me**
 
-I am a third-year Computer Science and Math student at the University of Maryland expecting to graduate in Spring 2025. Originally, I was a Physics major and wanted to pursue a career in academia and learn more about the mechanics underlying our universe. However, I decided to pursue my passion for games instead. As a result of my STEM-heavy upbringing, I enjoy learning more about game engine design as well as techniques that push the limits of what is technically possible in gaming. On the other hand, the main appeal to game development for me personally is the ability to create a digital world without restrictions. Recently I have set the goal for myself to learn game development and more specifically Unity by creating a game for myself. Although I hope the game, *[Endless RPG](https://github.com/tibormester/EndlessRPG)*, will be a success eventually, for now, it is nothing more than a hobby and a means of practicing new skills. 
+I am a senior Computer Science and Math student at the University of Maryland expecting to graduate in the Fall of 2025. Originally, I was a Physics major and wanted to pursue a career in academia and learn more about the mechanics underlying our universe. However, I believe a career in software development will be more rewarding, enabling me to lean more heavily into my creative side. 
+
+I have a passion for games, not only playing them, but I enjoy learning more about game engine design as well as techniques that push the limits of what is technically possible in gaming. On the other hand, the main appeal to game development for me personally is the ability to create a digital world without restrictions. Recently I have set the goal for myself to learn game development and more specifically Unity by creating a game for myself. Although I hope the game, *[Endless RPG](https://github.com/tibormester/EndlessRPG)*, will be a success eventually, for now, it is still a hobby and a means of practicing new skills. 
 
 **Table Of Contents**
 
