@@ -122,7 +122,7 @@ Assuming multiplayer would be easy, I quickly ran into desync issues when testin
 
 Wanting to release something on Steam before graduation, I paused multiplayer work and returned to my roots of procedural generation. I turned the *League of Legends*-inspired project into a rogue-like game where players race up a tower, avoiding obstacles like rising water and falling ceilings while fending off a minotaur. While there are still a few mechanics missing and polishing to do, it's almost ready for release.
 
-![Sinking Labyrinth](https://github.com/tibormester/tibormester.github.io/blob/master/labryinth.mov)
+![Sinking Labyrinth](https://github.com/tibormester/tibormester.github.io/blob/master/labyrinth.mov)
 
 ---
 
