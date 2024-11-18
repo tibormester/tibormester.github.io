@@ -72,13 +72,13 @@ In Unity, I quickly realized that many tools required their humanoid avatar syst
 
 As I returned to the project, Unity’s pricing changes made me decide to restart in Godot, taking advantage of its strong 2D inverse kinematics support.
 
-![Endless Animation 1](https://github.com/tibormester/tibormester.github.io/fabrikGodot.mov)
+![Endless Animation 1](https://github.com/tibormester/tibormester.github.io/fabrikGodot.mp4)
 
 #### *Wave Function Collapse Terrain Generation*
 
 During a semester break, I studied AI, particularly constraint satisfaction problems, and implemented the Wave Function Collapse algorithm to procedurally generate 2D terrain. I treated each chunk of the world as a constraint satisfaction problem, trying to align chunk boundaries with adjacent chunks. It wasn’t perfect, but it worked for the time being.
 
-![Endless Animation 1](https://github.com/tibormester/tibormester.github.io/wfc.mov)
+![Endless Animation 1](https://github.com/tibormester/tibormester.github.io/wfc.mp4)
 
 #### *Learning AI in a Simulation Game*
 
@@ -92,7 +92,7 @@ I also implemented a system where the species template updates based on a charac
 
 To address asymmetry in top-down abilities, I kept 2D sprites but used shear transforms to make them appear rotated in 3D. This solution worked well, but the left-right mirroring issue remained when swapping sides.
 
-*insert gif here*
+![Endless Animation 1](https://github.com/tibormester/tibormester.github.io/2d3drotation.mp4)
 
 #### *Back to 3D and Implementing FABRIK in Godot*
 
