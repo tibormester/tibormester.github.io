@@ -52,7 +52,7 @@ My first big project started with the idea of creating a completely procedurally
 
 I began with tutorials on mesh and terrain generation. First, I created a hexagonal mesh, applied noise to generate mountainous terrain, and then used shaders to modify the appearance of the terrain.
 
-![Crucible Mesh 1](https://github.com/tibormester/tibormester.github.io/IMG_3617.HEIC)
+![Crucible Mesh 1](https://github.com/tibormester/tibormester.github.io/blob/master/terrain.jpeg)
 
 #### *Character Controller and Procedural Animations*
 
@@ -114,7 +114,7 @@ Despite progress on the procedural RPG, I decided to scale down the project. I c
 
 Assuming multiplayer would be easy, I quickly ran into desync issues when testing two clients over Steam. To fix this, I implemented rollback net code, rewriting much of the networking code, but bugs persisted.
 
-![Rogue Royale](https://github.com/tibormester/tibormester.github.io/blob/master/multiplayer.mov)
+![Rogue Royale](https://github.com/tibormester/tibormester.github.io/blob/master/multiplayer2.mov)
 
 ---
 
@@ -122,7 +122,7 @@ Assuming multiplayer would be easy, I quickly ran into desync issues when testin
 
 Wanting to release something on Steam before graduation, I paused multiplayer work and returned to my roots of procedural generation. I turned the *League of Legends*-inspired project into a rogue-like game where players race up a tower, avoiding obstacles like rising water and falling ceilings while fending off a minotaur. While there are still a few mechanics missing and polishing to do, it's almost ready for release.
 
-![Sinking Labyrinth](https://github.com/tibormester/tibormester.github.io/blob/master/labrynth.mov)
+![Sinking Labyrinth](https://github.com/tibormester/tibormester.github.io/blob/master/labryinth.mov)
 
 ---
 
