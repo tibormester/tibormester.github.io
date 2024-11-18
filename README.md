@@ -72,13 +72,13 @@ In Unity, I quickly realized that many tools required their humanoid avatar syst
 
 As I returned to the project, Unity’s pricing changes made me decide to restart in Godot, taking advantage of its strong 2D inverse kinematics support.
 
-![Endless Animation 1](https://github.com/tibormester/tibormester.github.io/fabrikGodot.mp4)
+![Endless Animation 1](https://github.com/tibormester/tibormester.github.io/blob/master/2dIK.mov)
 
 #### *Wave Function Collapse Terrain Generation*
 
 During a semester break, I studied AI, particularly constraint satisfaction problems, and implemented the Wave Function Collapse algorithm to procedurally generate 2D terrain. I treated each chunk of the world as a constraint satisfaction problem, trying to align chunk boundaries with adjacent chunks. It wasn’t perfect, but it worked for the time being.
 
-![Endless Animation 1](https://github.com/tibormester/tibormester.github.io/wfc.mp4)
+![Endless Animation 1](https://github.com/tibormester/tibormester.github.io/blob/master/wfc.mov)
 
 #### *Learning AI in a Simulation Game*
 
@@ -86,19 +86,19 @@ For the gameplay, I was inspired by *Rimworld* and focused on procedural content
 
 I also implemented a system where the species template updates based on a character’s fitness score, which evolves through reinforcement learning.
 
-*insert gif here*
+![Endless Simulation](https://github.com/tibormester/tibormester.github.io/blob/master/huntingAI.mov)
 
 #### *Rotating Sprites in 3D in 2D*
 
 To address asymmetry in top-down abilities, I kept 2D sprites but used shear transforms to make them appear rotated in 3D. This solution worked well, but the left-right mirroring issue remained when swapping sides.
 
-![Endless Animation 1](https://github.com/tibormester/tibormester.github.io/2d3drotation.mp4)
+![Endless Animation](https://github.com/tibormester/tibormester.github.io/blob/master/2d3drotation.mov)
 
 #### *Back to 3D and Implementing FABRIK in Godot*
 
 Eventually, I realized that a physical organ system would be best experienced in 3D. With my prior experience from Unity, it was easy to implement this in Godot.
 
-*insert gif here*
+![Endless 3D](https://github.com/tibormester/tibormester.github.io/blob/master/fabrikGodot.mov)
 
 ---
 
@@ -108,13 +108,13 @@ Eventually, I realized that a physical organ system would be best experienced in
 
 Despite progress on the procedural RPG, I decided to scale down the project. I created a 2D Battle Royale game inspired by *League of Legends*, focusing on both combat and PVE elements. The core mechanics were simple but deep, and I quickly implemented a character controller, modular attack combos, projectile weapons, and status effects.
 
-*insert gif here*
+![Rogue Royale](https://github.com/tibormester/tibormester.github.io/blob/master/rogueRoyale.mov)
 
 #### *Multiplayer Rollback through ENet and Steam*
 
 Assuming multiplayer would be easy, I quickly ran into desync issues when testing two clients over Steam. To fix this, I implemented rollback net code, rewriting much of the networking code, but bugs persisted.
 
-*insert gif here*
+![Rogue Royale](https://github.com/tibormester/tibormester.github.io/blob/master/multiplayer.mov)
 
 ---
 
@@ -122,7 +122,7 @@ Assuming multiplayer would be easy, I quickly ran into desync issues when testin
 
 Wanting to release something on Steam before graduation, I paused multiplayer work and returned to my roots of procedural generation. I turned the *League of Legends*-inspired project into a rogue-like game where players race up a tower, avoiding obstacles like rising water and falling ceilings while fending off a minotaur. While there are still a few mechanics missing and polishing to do, it's almost ready for release.
 
-*insert gif here*
+![Sinking Labyrinth](https://github.com/tibormester/tibormester.github.io/blob/master/labrynth.mov)
 
 ---
 
