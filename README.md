@@ -52,7 +52,7 @@ My first big project started with the idea of creating a completely procedurally
 
 I began with tutorials on mesh and terrain generation. First, I created a hexagonal mesh, applied noise to generate mountainous terrain, and then used shaders to modify the appearance of the terrain.
 
-*insert image here*
+![Crucible Mesh 1](https://github.com/tibormester/tibormester.github.io/IMG_3617.HEIC)
 
 #### *Character Controller and Procedural Animations*
 
@@ -72,13 +72,13 @@ In Unity, I quickly realized that many tools required their humanoid avatar syst
 
 As I returned to the project, Unity’s pricing changes made me decide to restart in Godot, taking advantage of its strong 2D inverse kinematics support.
 
-*insert gif here*
+![Endless Animation 1](https://github.com/tibormester/tibormester.github.io/fabrikGodot.mov)
 
 #### *Wave Function Collapse Terrain Generation*
 
 During a semester break, I studied AI, particularly constraint satisfaction problems, and implemented the Wave Function Collapse algorithm to procedurally generate 2D terrain. I treated each chunk of the world as a constraint satisfaction problem, trying to align chunk boundaries with adjacent chunks. It wasn’t perfect, but it worked for the time being.
 
-*insert gif here*
+![Endless Animation 1](https://github.com/tibormester/tibormester.github.io/wfc.mov)
 
 #### *Learning AI in a Simulation Game*
 
