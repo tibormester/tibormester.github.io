@@ -76,7 +76,7 @@ As I returned to the project, Unity’s pricing changes made me decide to restar
 
 #### *Wave Function Collapse Terrain Generation*
 
-During a semester break, I studied AI, particularly constraint satisfaction problems, and implemented the Wave Function Collapse algorithm to procedurally generate 2D terrain. I treated each chunk of the world as a constraint satisfaction problem, trying to align chunk boundaries with adjacent chunks. It wasn’t perfect, but it worked for the time being.
+During the previous school semester, I studied AI, particularly constraint satisfaction problems, and implemented the Wave Function Collapse algorithm to procedurally generate 2D terrain. I treated each chunk of the world as a constraint satisfaction problem, trying to align chunk boundaries with adjacent chunks. It wasn’t perfect, but it worked for the time being.
 
 ![Endless Animation 1](https://github.com/tibormester/tibormester.github.io/blob/master/wfc.mov)
 
@@ -84,7 +84,7 @@ During a semester break, I studied AI, particularly constraint satisfaction prob
 
 For the gameplay, I was inspired by *Rimworld* and focused on procedural content instead of a handcrafted narrative. I created a simulation where AI characters with basic needs perform tasks to satisfy their needs, with emergent stories. 
 
-I also implemented a system where the species template updates based on a character’s fitness score, which evolves through reinforcement learning.
+I plan on implementing a system where needs and tasks have weights that modify their priority. An individual will mutate their weights away from the species template, and upon death, a fitness score will be calculated and used to update the template through reinforcement learning.
 
 ![Endless Simulation](https://github.com/tibormester/tibormester.github.io/blob/master/huntingAI.mov)
 
@@ -96,7 +96,7 @@ To address asymmetry in top-down abilities, I kept 2D sprites but used shear tra
 
 #### *Back to 3D and Implementing FABRIK in Godot*
 
-Eventually, I realized that a physical organ system would be best experienced in 3D. With my prior experience from Unity, it was easy to implement this in Godot.
+Eventually, I realized that a physical organ system would be best experienced in 3D since aiming in 2D has fewer degrees of freedom. With my prior experience coding FABRIK in Unity, it was easy to implement it into Godot.
 
 ![Endless 3D](https://github.com/tibormester/tibormester.github.io/blob/master/fabrikGodot.mov)
 
@@ -106,13 +106,13 @@ Eventually, I realized that a physical organ system would be best experienced in
 
 #### *Scaling Down and Focusing on Scope*
 
-Despite progress on the procedural RPG, I decided to scale down the project. I created a 2D Battle Royale game inspired by *League of Legends*, focusing on both combat and PVE elements. The core mechanics were simple but deep, and I quickly implemented a character controller, modular attack combos, projectile weapons, and status effects.
+Despite progress on the procedural RPG, I decided to scale down the project. I created a 2D Battle Royale game that is PvPvE inspired by *League of Legends*, focusing on both combat and PVE elements. The core mechanics were simple to code but allowed room for complexity. I quickly implemented a character controller, modular attack combos, projectile weapons, and status effects.
 
 ![Rogue Royale](https://github.com/tibormester/tibormester.github.io/blob/master/rogueRoyale.mov)
 
 #### *Multiplayer Rollback through ENet and Steam*
 
-Assuming multiplayer would be easy, I quickly ran into desync issues when testing two clients over Steam. To fix this, I implemented rollback net code, rewriting much of the networking code, but bugs persisted.
+I made a mistake in assuming that multiplayer would be easy. Although I got clients on the same machine to play through ENet, when using Steam to play across machines, I quickly ran into desync issues. To fix this, I implemented rollback net code, rewriting all of the code, but bugs persisted.
 
 ![Rogue Royale](https://github.com/tibormester/tibormester.github.io/blob/master/multiplayer2.mov)
 
@@ -120,7 +120,7 @@ Assuming multiplayer would be easy, I quickly ran into desync issues when testin
 
 ### **Sinking Labyrinth - 2D Rogue-like**
 
-Wanting to release something on Steam before graduation, I paused multiplayer work and returned to my roots of procedural generation. I turned the *League of Legends*-inspired project into a rogue-like game where players race up a tower, avoiding obstacles like rising water and falling ceilings while fending off a minotaur. While there are still a few mechanics missing and polishing to do, it's almost ready for release.
+Wanting to release something on Steam before graduation, I paused multiplayer work and returned to my roots of procedural generation. I turned the *League of Legends* inspired project into a rogue-like game where players are chased up a tower, avoiding obstacles like rising water and falling ceilings while fending off monsters. While there are still a few mechanics missing and polishing to do, it's almost ready for release.
 
 ![Sinking Labyrinth](https://github.com/tibormester/tibormester.github.io/blob/master/labyrinth.mov)
 
@@ -128,9 +128,9 @@ Wanting to release something on Steam before graduation, I paused multiplayer wo
 
 ### **Bug Souls - 3D Action RPG**
 
-In my final semester, I’m working with a team on *Bug Souls*, an action RPG inspired by *Dark Souls*. In the game, you play as a bug climbing a tree. We're experimenting with unique mechanics, like throwable objects that orbit the tree due to gravity, allowing for trick shots and sneak attacks during boss fights.
+In my final college semester, I’m working with a team on *Bug Souls*, an action RPG inspired by *Dark Souls*. In the game, you play as a bug climbing a tree. In class, we discussed different types of play and narrative design. And I think we did a pretty good job of putting our lessons into practice: Most notably, we are evoking a sense of vertigo due to the shrunk scale and nonstandard gravity (the player sticks to the branches).
 
-Collaborating with four teammates has been a rewarding experience, as we support each other and share expertise, making the large project feel more manageable.
+Collaborating with my four teammates has been a rewarding experience. Working in a team not only allows us to share expertise but also fosters a sense of camaraderie. In my solo projects, I often felt demoralized when I made slow progress. However, with Bug Souls, we support each other through rough patches.
 
 ---
 
