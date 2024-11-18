@@ -1,143 +1,161 @@
-# Portfolio
+### Portfolio
 
-**Table Of Contents**
+---
 
-**My Journey Into Game Development**
-* [Background](https://github.com/tibormester/tibormester.github.io/blob/master/README.md?#33)
-* [Crucible - 3D Procedural RPG ](https://github.com/tibormester/tibormester.github.io/blob/master/README.md?#L57)
-* [Endless - 2D Procedural RPG](https://github.com/tibormester/tibormester.github.io/blob/master/README.md?#L76)
-* [Rogue Royale - 2D Battle Royale](https://github.com/tibormester/tibormester.github.io/blob/master/README.md?#L112)
-* [Sinking Labryinth - 2D Rogue-like](https://github.com/tibormester/tibormester.github.io/blob/master/README.md?#L139)
-* [Bug Souls - 3D Action RPG](https://github.com/tibormester/tibormester.github.io/blob/master/README.md?#L135)
-  
-**Data Structures**
-* [AVL Tree](https://github.com/tibormester/tibormester.github.io/blob/master/avl.py) An AVL tree is a BST that self balances through rotations
-* [Binary Search Tree](https://github.com/tibormester/tibormester.github.io/blob/master/bst.py) An implementation of a standard BST that tallies key counts that can be incremented and decremented through insertion and deletion
-* [B Tree](https://github.com/tibormester/tibormester.github.io/blob/master/btree.py) Similar to a BST, but has several keys and values per node enabling denser data storage as well as easy access to neighboring values
-* [KD Tree](https://github.com/tibormester/tibormester.github.io/blob/master/kd.py) A multi-dimensional approach to a BST that is often used in game engines for storing physics objects
-* [Skip List](https://github.com/tibormester/tibormester.github.io/blob/master/skiplist.py) A variation of a linked list that at the cost of space enables O(log n) search complexity. Basically a BST and Linked List together.
-* [Splay Tree](https://github.com/tibormester/tibormester.github.io/blob/master/splay.py) A BST that stays balanced by requiring splay operations. This is done through mathematical magic.
+#### **Table of Contents**
+1. [My Journey Into Game Development](#my-journey-into-game-development)
+   - [Background](#background)
+   - [Crucible - 3D Procedural RPG](#crucible---3d-procedural-rpg)
+   - [Endless - 2D Procedural RPG](#endless---2d-procedural-rpg)
+   - [Rogue Royale - 2D Battle Royale](#rogue-royale---2d-battle-royale)
+   - [Sinking Labyrinth - 2D Rogue-like](#sinking-labyrinth---2d-rogue-like)
+   - [Bug Souls - 3D Action RPG](#bug-souls---3d-action-rpg)
+2. [Data Structures](#data-structures)
+3. [Algorithms](#algorithms)
+4. [Other](#other)
 
-**Algorithms**
-* [Mixed Nash Equilibrium Solver](https://github.com/tibormester/tibormester.github.io/blob/master/Mixed.java) Mixed Nash Equilibrium is a concept in game theory that represents a state where no agent can unilaterally change their choice of action for a better outcome
-* [Expected Value](https://github.com/tibormester/tibormester.github.io/blob/master/expectation.py) Just a simple script to compute the expected value for a Game Theory Homework problem
-* [Reversi Competition](https://github.com/tibormester/tibormester.github.io/blob/master/reversi.py) A group project where we compete against other groups in a game of reversi. Our algorithm picks the best move by calculating not only the payoff of its turn but the best move for the opponent given our move
+---
 
-**Other**
-* [Blackjack](https://github.com/tibormester/tibormester.github.io/blob/master/Blackjack.java) A simple Java project to play blackjack against the Computer Dealer
-* [Projective Geometry Presentation.pptx](https://github.com/tibormester/tibormester.github.io/files/14003304/Projective.Geometry.Presentation.pptx) Slides for a minor presentation I gave on Applications of Projective Geometry for Computer Graphics, which I gave during my course in Euclidean and Non-Euclidean Geometry
+### **My Journey Into Game Development**
 
-**My Journey Into Game Development**
+#### **Background**
 
-**Background**
+##### *Scratch and Mobile Games*
 
-*Scratch and Mobile Games*
+My journey into Game Dev started with Scratch, a drag-and-drop engine, which I think is fair considering I was still in elementary school. I eventually used my familiarity with Scratch to win the Game Programming event at my State’s High School Science Olympiad competition. 
 
-My journey into Game Dev started with Scratch, it's a drag-and-drop engine but I think that's fair considering I was still in elementary school. And eventually, I was even able to use my familiarity with the engine to win the Game Programming event at my State’s High School Science Olympiads competition.
-My first real experience with non-drag-and-drop programming came during my summers during middle school. My cousins and I would meet in person or over Skype to design and develop mobile games. Over the years, we managed to release four apps on the Apple App Store and two on Google Play.
+My first real experience with non-drag-and-drop programming came during middle school summers. My cousins and I would meet in person or over Skype to design and develop mobile games. Over the years, we managed to release four apps on the Apple App Store and two on Google Play.
 
-https://falling-cats-on-pug.apk.dog
+[Download Falling Cats on Pug](https://falling-cats-on-pug.apk.dog)
 
-*Changing Careers*
+##### *Changing Careers*
 
-At first, I didn’t take game development seriously as a career path—I viewed it as play not work. When I entered college at the University of Maryland, I was a math and physics major, with probably the slightly too ambitious dream of one day following in the footsteps of someone like Einstein.
+At first, I didn’t take game development seriously as a career path—I viewed it as play, not work. When I entered college at the University of Maryland, I was a math and physics major, with the ambitious dream of one day following in the footsteps of someone like Einstein.
 
-I came to college with a lot of credits, so I jumped straight into the upper-level classes. It was humbling. I was no longer at the top of my class, and I realized that to truly excel, I would need to live and breathe physics. After some serious soul-searching, I realized that while I loved physics, I couldn’t make it my life.
+However, my first college experience was humbling. I wasn’t at the top of my class anymore and realized that to truly excel, I’d need to live and breathe physics. After some soul-searching, I decided that while I loved physics, I couldn’t make it my life.
 
-Crafting a game that can entertain people seems far more fulfilling than publishing papers that might only be read by a handful of people in academia. So, for the past year and a half, I’ve been working through my computer science degree, while also self-studying game development and design.
+Crafting games that entertain people seemed far more fulfilling than publishing papers that might only be read by a handful in academia. So, for the past year and a half, I’ve been working on my computer science degree while also self-studying game development and design.
 
-*Picking Game Engines*
+##### *Picking Game Engines*
 
-When I finally made the career pivot, I started by experimenting with engines.
+When I finally made the career pivot, I started experimenting with engines. Initially, I tried JMonkeyEngine and LibGDX, as I had always wanted to build my own game engine. But I soon realized that I’d rather focus on developing fun gameplay mechanics rather than reinventing the wheel.
 
-I first tried using JMonkeyEngine and LibGDX since I was really into the idea of building my own game engine back in middle school and wanted to start from the ground up. But I quickly realized that I’d rather focus on developing fun and novel gameplay mechanics than worry about reinventing the wheel.
+Eventually, I settled on Godot because of its solid documentation and the fact that it's free.
 
-Eventually, I settled on Godot because its documentation is the best, it being free was also a huge plus. 
+---
 
-**Crucible - 3D Procedural RPG**
+### **Crucible - 3D Procedural RPG**
 
-*Procedural Mesh and Terrain Generation*
+#### *Procedural Mesh and Terrain Generation*
 
-My first big project started with the idea of creating a completely procedurally generated game. I didn't want to get distracted from fun mechanics by messing with assets.
+My first big project started with the idea of creating a completely procedurally generated game. I didn’t want to get distracted by asset creation.
 
-I started with some tutorials on mesh and terrain generation, first creating a hexagonal mesh, applying noise to generate mountainous terrain, and then using shaders to modify the appearance of the terrain.
+I began with tutorials on mesh and terrain generation. First, I created a hexagonal mesh, applied noise to generate mountainous terrain, and then used shaders to modify the appearance of the terrain.
 
-insert image here
+*insert image here*
 
-*Character Controller and Procedural Animations*
+#### *Character Controller and Procedural Animations*
 
-Once the terrain was ready, my next challenge was creating a character controller with procedural animations. Initially, I tried using Godot’s built-in physics engine and inverse kinematics systems, but I struggled. My vision was to create a ballistics system like in War Thunder, but for organs and body parts, with animations adjusting accordingly and in an active ragdoll. Unfortunately, the physics engine and the deprecated inverse kinematics tools in Godot didn’t make it easy, so I decided to switch to Unity.
-In Unity, I quickly realized a lot of the tools require the use of their humanoid avatar system, which was too specific for my design, so instead, I implemented the FABRIK algorithm myself. I also created a spring-based ground collision model to help the character walk on stairs and added wall-running mechanics. However, as the semester progressed and my school workload grew, I had to pause the project.
+Once the terrain was ready, I moved on to creating a character controller with procedural animations. Initially, I tried using Godot’s built-in physics engine and inverse kinematics systems but struggled. My goal was to create a ballistics system similar to War Thunder, where organ and body part animations adjust accordingly in an active ragdoll. But Godot’s tools weren’t ideal, so I switched to Unity.
 
-https://github.com/tibormester/EndlessRPG/assets/67936278/d4d2cde1-c196-454d-ad3d-754eeb0c9c3c
+In Unity, I quickly realized that many tools required their humanoid avatar system, which was too specific for my design. Instead, I implemented the FABRIK algorithm and created a spring-based ground collision model to help the character walk on stairs and add wall-running mechanics. However, as the semester progressed, I had to pause the project.
 
-https://github.com/tibormester/EndlessRPG/assets/67936278/b5947b28-d26b-4ae0-8f54-376a636938ce
+![Crucible Animation 1](https://github.com/tibormester/EndlessRPG/assets/67936278/d4d2cde1-c196-454d-ad3d-754eeb0c9c3c)
 
-**Endless - 2D Procedural Game RPG**
+![Crucible Animation 2](https://github.com/tibormester/EndlessRPG/assets/67936278/b5947b28-d26b-4ae0-8f54-376a636938ce)
 
-*Back to Godot*
+---
 
-Just as I found the time to return to the project, Unity made changes to its pricing model, so I decided to restart in Godot. This time, I planned on taking advantage of the strong support they have for 2D inverse kinematics.
+### **Endless - 2D Procedural RPG**
 
-insert gif here
+#### *Back to Godot*
 
-*Wave Function Collapse Terrain Generation*
+As I returned to the project, Unity’s pricing changes made me decide to restart in Godot, taking advantage of its strong 2D inverse kinematics support.
 
-During the semester break, I had been studying AI, specifically constraint satisfaction problems, which is a generalization of the Wave Function Collapse algorithm. I implemented this to procedurally generate 2D terrain by treating each chunk of the world as a constraint satisfaction problem. The goal was to save the chunks as constraints and generate them deterministically.
+*insert gif here*
 
-However, I ran into several challenges. For instance, getting chunk boundaries to align with adjacent chunks proved difficult, especially when circling around unloaded chunks. Through trial and error, I was able to reduce most of these issues, though I wasn’t fully satisfied with the output or runtime. But it was good enough for now.
+#### *Wave Function Collapse Terrain Generation*
 
-insert gif here
+During a semester break, I studied AI, particularly constraint satisfaction problems, and implemented the Wave Function Collapse algorithm to procedurally generate 2D terrain. I treated each chunk of the world as a constraint satisfaction problem, trying to align chunk boundaries with adjacent chunks. It wasn’t perfect, but it worked for the time being.
 
-*Learning AI in a Simulation Game*
+*insert gif here*
 
-For the gameplay mechanics, I was inspired by Rimworld and instead of focusing on a handcrafted narrative, I again wanted to go procedural. I started working on a simulation where the world would be populated by AI characters with basic needs and tasks that would create an emergent story. These characters have different need meters that fall over time, requiring them to perform actions to refill them. Each need and action has a weight applied to its base urgency and predicted net need outputs. I plan on having individuals mutate these weights away from the species template, and at the end of their lives, a fitness score is calculated and used to update the species template. This would make species behaviors use reinforcement learning over time, so that they could adapt to changes in the environment.
+#### *Learning AI in a Simulation Game*
 
-insert gif here
+For the gameplay, I was inspired by *Rimworld* and focused on procedural content instead of a handcrafted narrative. I created a simulation where AI characters with basic needs perform tasks to satisfy their needs, with emergent stories. 
 
-*Rotating Sprites in 3D in 2D*
+I also implemented a system where the species template updates based on a character’s fitness score, which evolves through reinforcement learning.
 
-Before iterating on the AI learning aspect, I needed to finish the ability system so I had some variety to test with. I wanted the game to be top-down, with abilities cast in any direction. Since abilities are collision-based, this creates an asymmetry between the top vs. bottom of the screen (as opposed to left vs. right). Looking back, I think this could lead to emergent strategies in gameplay that I plan on revisiting, but at the time, I saw it as an issue. My first thought was that I needed to make the game fully top-down. An orthographic top-down view would’ve been easy to implement, but it would also hide all the character limbs, making it difficult to see the variation in characters.
+*insert gif here*
 
-So, my second solution was to keep the 2D billboard sprites and shear their transforms to make them appear as if they were rendered and rotated in 3D. This worked surprisingly well, except when swapping sides, the left and right sides would get mirrored.
+#### *Rotating Sprites in 3D in 2D*
 
-insert gif here
+To address asymmetry in top-down abilities, I kept 2D sprites but used shear transforms to make them appear rotated in 3D. This solution worked well, but the left-right mirroring issue remained when swapping sides.
 
-*Back to 3D and implementing FABRIK in Godot*
+*insert gif here*
 
-Eventually, I concluded that a physical organ system would be best interacted with in 3D like I originally planned because aiming in 2D just isn’t the same. And with my experience working on procedural animations in Unity, it was a breeze getting it working in Godot.
+#### *Back to 3D and Implementing FABRIK in Godot*
 
-insert gif here
+Eventually, I realized that a physical organ system would be best experienced in 3D. With my prior experience from Unity, it was easy to implement this in Godot.
 
-**Rogue Royale - Battle Royale 2D**
+*insert gif here*
 
-*Scaling Down and Focusing on Scope*
+---
 
-Despite the progress I was making, the procedural game was far from finished and I realized my aversion to creating and using assets was making things more difficult for myself. So I decided to come up with a new design with a more focused scope: a 2D battle royale with both combat and PVE elements, inspired by League of Legends. 
+### **Rogue Royale - 2D Battle Royale**
 
-The core combat mechanics had some mechanical depth but were surprisingly simple to implement, and I was able to quickly assemble a character controller with modular attack combos, projectile weapons, and status effects.
+#### *Scaling Down and Focusing on Scope*
 
-insert gif here
+Despite progress on the procedural RPG, I decided to scale down the project. I created a 2D Battle Royale game inspired by *League of Legends*, focusing on both combat and PVE elements. The core mechanics were simple but deep, and I quickly implemented a character controller, modular attack combos, projectile weapons, and status effects.
 
-*Multiplayer Rollback through ENet and Steam*
+*insert gif here*
 
-But where I made a mistake was assuming that adding multiplayer would be a plug-and-play type of situation. When testing two clients locally, everything worked fine. However once I tried connecting different machines over Steam, I realized that desync issues made the game unplayable. 
-To fix these issues, I eventually settled on implementing rollback net code, except I had to rewrite everything, and even then there were still many bugs. 
+#### *Multiplayer Rollback through ENet and Steam*
 
-insert gif here
+Assuming multiplayer would be easy, I quickly ran into desync issues when testing two clients over Steam. To fix this, I implemented rollback net code, rewriting much of the networking code, but bugs persisted.
 
-**Sinking Labyrinth - 2D Roguelike**
+*insert gif here*
 
-Wanting to get something on Steam before graduation, I decided to put polishing multiplayer on pause and returned to my roots of procedural generation. I kept the League of Legends inspired ability system and transformed the project into a rogue-like game where players race up a tower, avoiding obstacles like rising water and falling ceilings, while also fending off a minotaur. The game is missing a few mechanics and needs a lot of polish, but should be released soon.
+---
 
-insert gif here
+### **Sinking Labyrinth - 2D Rogue-like**
 
-**Bug Souls - Action RPG**
+Wanting to release something on Steam before graduation, I paused multiplayer work and returned to my roots of procedural generation. I turned the *League of Legends*-inspired project into a rogue-like game where players race up a tower, avoiding obstacles like rising water and falling ceilings while fending off a minotaur. While there are still a few mechanics missing and polishing to do, it's almost ready for release.
 
-Now, in my final semester of undergrad, I’m a member of a team in my Game Programming class. We are working on a demo for our game called Bug Souls, an action RPG inspired by Dark Souls. In the game, you play as a bug climbing a tree, and we’re experimenting with unique mechanics, like throwable objects that orbit the tree due to gravity relative to the branches. This mechanic allows for trick shots and sneak attacks during boss fights. 
+*insert gif here*
 
-I voted for the RPG genre because I wanted to lean into using assets and environmental design to create a compelling narrative. In class, we discussed different types of play and narrative design. And I think we did a pretty good job of putting our lessons into practice.
+---
 
-Collaborating with my four teammates has been a rewarding experience. Working in a team not only allows us to share expertise but also fosters a vital sense of camaraderie. In my solo projects, I often felt demoralized when I made slow progress. However, with Bug Souls, we support each other through rough patches, alleviating the stresses that come with working on large projects.
+### **Bug Souls - 3D Action RPG**
+
+In my final semester, I’m working with a team on *Bug Souls*, an action RPG inspired by *Dark Souls*. In the game, you play as a bug climbing a tree. We're experimenting with unique mechanics, like throwable objects that orbit the tree due to gravity, allowing for trick shots and sneak attacks during boss fights.
+
+Collaborating with four teammates has been a rewarding experience, as we support each other and share expertise, making the large project feel more manageable.
+
+---
+
+### **Data Structures**
+
+- [AVL Tree](https://github.com/tibormester/tibormester.github.io/blob/master/avl.py) - An AVL tree is a self-balancing Binary Search Tree (BST) that uses rotations to maintain balance.
+- [Binary Search Tree](https://github.com/tibormester/tibormester.github.io/blob/master/bst.py) - A standard BST implementation that tracks key counts, incremented and decremented through insertion and deletion.
+- [B Tree](https://github.com/tibormester/tibormester.github.io/blob/master/btree.py) - A type of BST optimized for dense data storage and efficient access to neighboring values.
+- [KD Tree](https://github.com/tibormester/tibormester.github.io/blob/master/kd.py) - A multi-dimensional approach to BSTs, often used in game engines for storing physics objects.
+- [Skip List](https://github.com/tibormester/tibormester.github.io/blob/master/skiplist.py) - A linked list variant that supports O(log n) search complexity, combining BST and Linked List functionality.
+- [Splay Tree](https://github.com/tibormester/tibormester.github.io/blob/master/splay.py) - A self-balancing BST that uses splay operations to maintain balance.
+
+---
+
+### **Algorithms**
+
+- [Mixed Nash Equilibrium Solver](https://github.com/tibormester/tibormester.github.io/blob/master/Mixed.java) - A solver for the Mixed Nash Equilibrium, a game theory concept where no player can improve their outcome by changing their strategy alone.
 
 
+- [Expected Value](https://github.com/tibormester/tibormester.github.io/blob/master/expectation.py) - A simple script to compute the expected value for game theory problems.
+- [Reversi Competition](https://github.com/tibormester/tibormester.github.io/blob/master/reversi.py) - A project where we competed against other teams in Reversi, using algorithms that account for both our and the opponent’s possible moves.
+
+---
+
+### **Other**
+
+- [Blackjack](https://github.com/tibormester/tibormester.github.io/blob/master/Blackjack.java) - A simple Java-based Blackjack game against the Computer Dealer.
+- [Projective Geometry Presentation.pptx](https://github.com/tibormester/tibormester.github.io/files/14003304/Projective.Geometry.Presentation.pptx) - A slide deck for a presentation I gave on the applications of projective geometry in computer graphics.
