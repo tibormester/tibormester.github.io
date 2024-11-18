@@ -1,5 +1,7 @@
 # Portfolio
 
+[![Game Dev Journey](https://img.youtube.com/vi/KM_zEdRPphk/0.jpg)](https://www.youtube.com/watch?v=KM_zEdRPphk)
+
 **About Me**
 
 I am a senior Computer Science and Math student at the University of Maryland expecting to graduate in the Fall of 2025. Originally, I was a Physics major and wanted to pursue a career in academia and learn more about the mechanics underlying our universe. However, I believe a career in software development will be more rewarding, enabling me to lean more heavily into my creative side. 
