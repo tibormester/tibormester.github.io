@@ -4,7 +4,7 @@
 
 #### **Table of Contents**
 1. [My Journey Into Game Development](#my-journey-into-game-development)
-   - [Background](#background)
+   - [Mobile Game Dev](#mobile-game-dev)
    - [Crucible - 3D Procedural RPG](#crucible---3d-procedural-rpg)
    - [Endless - 2D Procedural RPG](#endless---2d-procedural-rpg)
    - [Rogue Royale - 2D Battle Royale](#rogue-royale---2d-battle-royale)
@@ -20,35 +20,17 @@
 
 #### **Background**
 
-##### *Scratch and Mobile Games*
+##### *Mobile Game Dev*
 
-My journey into Game Dev started with Scratch, a drag-and-drop engine, which I think is fair considering I was still in elementary school. I eventually used my familiarity with Scratch to win the Game Programming event at my State’s High School Science Olympiad competition. 
-
-My first real experience with non-drag-and-drop programming came during middle school summers. My cousins and I would meet in person or over Skype to design and develop mobile games. Over the years, we managed to release four apps on the Apple App Store and two on Google Play.
+My first real experience with non-drag-and-drop programming came during middle school summers (10-14 years old). My cousins and I would meet in person or over Skype to design and develop mobile games. Over the years, we managed to release four apps on the Apple App Store and two on Google Play. Most of the links are gone now
 
 [Download Falling Cats on Pug](https://falling-cats-on-pug.apk.dog)
-
-##### *Changing Careers*
-
-At first, I didn’t take game development seriously as a career path—I viewed it as play, not work. When I entered college at the University of Maryland, I was a math and physics major, with the ambitious dream of one day following in the footsteps of someone like Einstein.
-
-However, my first college experience was humbling. I wasn’t at the top of my class anymore and realized that to truly excel, I’d need to live and breathe physics. After some soul-searching, I decided that while I loved physics, I couldn’t make it my life.
-
-Crafting games that entertain people seemed far more fulfilling than publishing papers that might only be read by a handful in academia. So, for the past year and a half, I’ve been working on my computer science degree while also self-studying game development and design.
-
-##### *Picking Game Engines*
-
-When I finally made the career pivot, I started experimenting with engines. Initially, I tried JMonkeyEngine and LibGDX, as I had always wanted to build my own game engine. But I soon realized that I’d rather focus on developing fun gameplay mechanics rather than reinventing the wheel.
-
-Eventually, I settled on Godot because of its solid documentation and the fact that it's free.
-
----
 
 ### **Crucible - 3D Procedural RPG**
 
 #### *Procedural Mesh and Terrain Generation*
 
-My first big project started with the idea of creating a completely procedurally generated game. I didn’t want to get distracted by asset creation.
+My first big project started 3 years ago during my Junior Year of Undergrad with the idea of creating a completely procedurally generated game. I didn’t want to get distracted by asset creation.
 
 I began with tutorials on mesh and terrain generation. First, I created a hexagonal mesh, applied noise to generate mountainous terrain, and then used shaders to modify the appearance of the terrain.
 
@@ -128,9 +110,7 @@ Wanting to release something on Steam before graduation, I paused multiplayer wo
 
 ### **Bug Souls - 3D Action RPG**
 
-In my final college semester, I’m working with a team on *Bug Souls*, an action RPG inspired by *Dark Souls*. In the game, you play as a bug climbing a tree. In class, we discussed different types of play and narrative design. And I think we did a pretty good job of putting our lessons into practice: Most notably, we are evoking a sense of vertigo due to the shrunk scale and nonstandard gravity (the player sticks to the branches).
-
-Collaborating with my four teammates has been a rewarding experience. Working in a team not only allows us to share expertise but also fosters a sense of camaraderie. In my solo projects, I often felt demoralized when I made slow progress. However, with Bug Souls, we support each other through rough patches.
+In my last college semester, I worked with a team to make *Bug Souls*, an action RPG inspired by *Dark Souls*. In the game, you play as an ant fighting off the corrupting vine that animates corpses and threatens to choke out life as you know it. A playable demo or video will be posted eventually.
 
 ---
 
