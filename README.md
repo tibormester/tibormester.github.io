@@ -110,7 +110,9 @@ Wanting to release something on Steam before graduation, I paused multiplayer wo
 
 ### **Bug Souls - 3D Action RPG**
 
-In my last college semester, I worked with a team to make *Bug Souls*, an action RPG inspired by *Dark Souls*. In the game, you play as an ant fighting off the corrupting vine that animates corpses and threatens to choke out life as you know it. A playable demo or video will be posted eventually.
+In my last college semester, I worked with a small team to make *Bug Souls*, an action RPG inspired by *Dark Souls*. In the game, you play as an ant fighting off the corrupting vine that animates corpses and threatens to choke out life as you know it.
+
+![Bug Souls Demo Playthrough](https://youtu.be/h6drcPZ13dw)
 
 ---
 
