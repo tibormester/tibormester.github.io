@@ -34,7 +34,7 @@ My first big project started 3 years ago during my Junior Year of Undergrad with
 
 I began with tutorials on mesh and terrain generation. First, I created a hexagonal mesh, applied noise to generate mountainous terrain, and then used shaders to modify the appearance of the terrain.
 
-![Crucible Mesh 1](https://github.com/tibormester/tibormester.github.io/blob/master/terrain.jpeg)
+![Crucible Mesh 1](images/terrain.jpeg)
 
 #### *Character Controller and Procedural Animations*
 
@@ -54,13 +54,13 @@ In Unity, I quickly realized that many tools required their humanoid avatar syst
 
 As I returned to the project, Unity’s pricing changes made me decide to restart in Godot, taking advantage of its strong 2D inverse kinematics support.
 
-![Endless Animation 1](https://github.com/tibormester/tibormester.github.io/blob/master/2dIK.mov)
+![Endless Animation 1](videos/2dIK.mov)
 
 #### *Wave Function Collapse Terrain Generation*
 
 During the previous school semester, I studied AI, particularly constraint satisfaction problems, and implemented the Wave Function Collapse algorithm to procedurally generate 2D terrain. I treated each chunk of the world as a constraint satisfaction problem, trying to align chunk boundaries with adjacent chunks. It wasn’t perfect, but it worked for the time being.
 
-![Endless Animation 1](https://github.com/tibormester/tibormester.github.io/blob/master/wfc.mov)
+![Endless Animation 1](videos/wfc.mov)
 
 #### *Learning AI in a Simulation Game*
 
@@ -68,19 +68,19 @@ For the gameplay, I was inspired by *Rimworld* and focused on procedural content
 
 I plan on implementing a system where needs and tasks have weights that modify their priority. An individual will mutate their weights away from the species template, and upon death, a fitness score will be calculated and used to update the template through reinforcement learning.
 
-![Endless Simulation](https://github.com/tibormester/tibormester.github.io/blob/master/huntingAI.mov)
+![Endless Simulation](videos/huntingAI.mov)
 
 #### *Rotating Sprites in 3D in 2D*
 
 To address asymmetry in top-down abilities, I kept 2D sprites but used shear transforms to make them appear rotated in 3D. This solution worked well, but the left-right mirroring issue remained when swapping sides.
 
-![Endless Animation](https://github.com/tibormester/tibormester.github.io/blob/master/2d3drotation.mov)
+![Endless Animation](videos/2d3drotation.mov)
 
 #### *Back to 3D and Implementing FABRIK in Godot*
 
 Eventually, I realized that a physical organ system would be best experienced in 3D since aiming in 2D has fewer degrees of freedom. With my prior experience coding FABRIK in Unity, it was easy to implement it into Godot.
 
-![Endless 3D](https://github.com/tibormester/tibormester.github.io/blob/master/fabrikGodot.mov)
+![Endless 3D](videos/fabrikGodot.mov)
 
 ---
 
@@ -90,13 +90,13 @@ Eventually, I realized that a physical organ system would be best experienced in
 
 Despite progress on the procedural RPG, I decided to scale down the project. I created a 2D Battle Royale game that is PvPvE inspired by *League of Legends*, focusing on both combat and PVE elements. The core mechanics were simple to code but allowed room for complexity. I quickly implemented a character controller, modular attack combos, projectile weapons, and status effects.
 
-![Rogue Royale](https://github.com/tibormester/tibormester.github.io/blob/master/rogueRoyale.mov)
+![Rogue Royale](videos/rogueRoyale.mov)
 
 #### *Multiplayer Rollback through ENet and Steam*
 
 I made a mistake in assuming that multiplayer would be easy. Although I got clients on the same machine to play through ENet, when using Steam to play across machines, I quickly ran into desync issues. To fix this, I implemented rollback net code, rewriting all of the code, but bugs persisted.
 
-![Rogue Royale](https://github.com/tibormester/tibormester.github.io/blob/master/multiplayer2.mov)
+![Rogue Royale](videos/multiplayer2.mov)
 
 ---
 
@@ -104,7 +104,7 @@ I made a mistake in assuming that multiplayer would be easy. Although I got clie
 
 Wanting to release something on Steam before graduation, I paused multiplayer work and returned to my roots of procedural generation. I turned the *League of Legends* inspired project into a rogue-like game where players are chased up a tower, avoiding obstacles like rising water and falling ceilings while fending off monsters. While there are still a few mechanics missing and polishing to do, it's almost ready for release.
 
-![Sinking Labyrinth](https://github.com/tibormester/tibormester.github.io/blob/master/labyrinth.mov)
+![Sinking Labyrinth](videos/labyrinth.mov)
 
 ---
 
